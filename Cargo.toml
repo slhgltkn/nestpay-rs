@@ -1,0 +1,17 @@
+[package]
+name = "nestpay"
+version = "0.1.0"
+edition = "2021"
+description = "NestPay/Payten Sanal POS Hash Version 3 (ver3) library for Rust — Halkbank ve diğer NestPay entegrasyonları için"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/slhgltkn/nestpay-rs"
+homepage = "https://github.com/slhgltkn/nestpay-rs"
+documentation = "https://docs.rs/nestpay"
+keywords = ["nestpay", "payment", "3d-secure", "halkbank", "payten"]
+categories = ["web-programming", "api-bindings"]
+exclude = ["Sample Codes/", "Hash Ver3_Dokumantasyon_2024_TR.pdf"]
+
+[dependencies]
+sha2 = "0.10"
+base64 = "0.22"
